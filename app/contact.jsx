@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import { Link } from 'expo-router';
 
-import { Colors } from '@/constants/Colors';
+import { Colors } from '@/constants/theme';
 
 export default function ContactScreen() {
   const colorScheme = Appearance.getColorScheme();
@@ -34,7 +34,7 @@ export default function ContactScreen() {
         <View style={styles.textView}>
           <Text style={styles.text}>
             <Text>555 Coffee Lane</Text>{'\n'}
-            <Text>Kansas City, KS  55555-1234</Text>
+            <Text>Dhanbad City, JH  </Text>
           </Text>
         </View>
 
